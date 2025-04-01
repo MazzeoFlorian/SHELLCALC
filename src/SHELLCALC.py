@@ -10,10 +10,10 @@ import time
 
 
 x = 1 # for the main routine
-version = "0.3.0"
+version = "0.3.1"
 
 def start(): # Starting message
-    print("Welcome to BASECALC", version, "!")
+    print("Welcome to SHELLCALC", version, "!")
     time.sleep(1)
     print("Please enter a calculation type or type HLP for a list of commands.")
     time.sleep(1)
@@ -82,23 +82,27 @@ def hlp(): #Help function, prints all commands
     print("MOD: Modulo.")
     print("POT: Exponentional.")
     print("HLP: Help function.")
-    print("END: Ends BASECALC.")
-    print("ABT: About BASECALC.")
+    print("END: Ends SHELLCALC.")
+    print("ABT: About SHELLCALC.")
 
 def abt():
-    print("BASECALC Version", version)
+    print("SHELLCALC Version", version)
     time.sleep(1)
     print("by Florian Mazzeo (2025)")
     time.sleep(1)
-    print("More information on github.com")
+    print("More information on https://github.com/MazzeoFlorian/SHELLCALC")
     time.sleep(1)
 
 def end(): #End routine
     print("Good bye!")
     time.sleep(1)
 
+#Basically the main funcion loop.
+#start() initialzes the starting message and goes to the main calculating function.
+
 start()
 
+#while x is true, accept commands and do the calculations. If not, exit the program.
 while x == 1:
     inp = str(input())
     if inp == "ADD":
@@ -129,5 +133,5 @@ while x == 1:
         end()
         x = 0
     else:
-        print("Please enter a calculation type or type HLP for help!")
+        print("Unkown command. Type HLP for a list of commands.")
         time.sleep(1)
