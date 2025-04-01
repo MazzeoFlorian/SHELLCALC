@@ -10,7 +10,7 @@ import time
 
 
 x = 1 # for the main routine
-version = "0.3.1"
+version = "0.3.2"
 
 def start(): # Starting message
     print("Welcome to SHELLCALC", version, "!")
@@ -44,8 +44,8 @@ def mul(): # Multiplication function
     print(mul_a*mul_b)
 
 def mul_flt(): # Multiplies two floats
-    mul__flt_a = float(input("Enter a float number: "))
-    mul__flt_b = float(input("Enter a float number: "))
+    mul_flt_a = float(input("Enter a float number: "))
+    mul_flt_b = float(input("Enter a float number: "))
     print(mul_flt_a*mul_flt_b)
 
 def div(): # Division function
@@ -54,9 +54,9 @@ def div(): # Division function
     print(div_a+div_b)
 
 def div_flt(): # Multiplies two floats
-    div__flt_a = float(input("Enter a float number: "))
-    div__flt_b = float(input("Enter a float number: "))
-    print(div_flt_a/divl_flt_b)
+    div_flt_a = float(input("Enter a float number: "))
+    div_flt_b = float(input("Enter a float number: "))
+    print(div_flt_a/div_flt_b)
 
 def mod(): # Modulo function
     mod_a = int(input("Enter a whole number: "))
