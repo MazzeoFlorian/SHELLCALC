@@ -2,6 +2,7 @@
 ## 0.4.0
 * Code optimizations.
     * Code has been split to better maintain and not overbloat the main code.
+* Number seperator for results added.
 * Calculations automatically detect integers and float values.
     * Commands for calculating float values specifically have been removed.
 * Added a clear screen command.
