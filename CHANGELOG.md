@@ -1,9 +1,9 @@
 # Changelog
 ## 0.4.0
 * Code optimizations.
-    *Code has been split to better maintain and not overbloat the main code.
+    * Code has been split to better maintain and not overbloat the main code.
 * Calculations automatically detect integers and float values.
-    *Commands for calculating float values specifically have been removed.
+    * Commands for calculating float values specifically have been removed.
 * Added a clear screen command.
 * Certain messages are now colored.
 
