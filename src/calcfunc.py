@@ -4,7 +4,7 @@ import time
 import style
 import os
 
-version = "0.4" #semantic version numbering
+version = "0.4.0" #semantic version numbering
 
 
 def add(): #Adds two numbers
